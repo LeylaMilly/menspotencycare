@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Men's Potency Care</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <style>
+
+        :root {
+            --accent: #2c3e50;
+            --muted: #6c757d;
+            --light: #f8f9fa;
+        }
+
+        body {
+            background-color: #fafafa;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            color: #212529;
+        }
+
+        /* Countdown */
+
+        .header-section {
+            padding: 1rem 0 1rem 0;
+            background-color: red;
+        }
+
+        .countdown-label {
+            font-size: 0.8rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+            color: var(--light);
+            text-transform: uppercase;
+            margin-bottom: 0.2rem;
+        }
+
+        #countdown {
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: var(--light);
+            letter-spacing: 1px;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .intro-text {
+            max-width: 560px;
+            margin: 1.5rem auto 0;
+            color: var(--muted);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Video */
+
+        .video-container {
+            margin: 2rem auto 2rem;
+        }
+
+        .video-wrapper {
+            overflow: hidden;
+            background: #fafafa;
+        }
+
+        .video-wrapper video {
+            border-radius: 14px;
+            height: 45vh;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            object-fit: cover;
+        }
+
+        /* Checkout button (floating) */
+
+        body {
+            padding-bottom: 90px;
+        }
+
+        .checkout-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #ffffff;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.06);
+            padding: 14px 20px;
+            text-align: center;
+            z-index: 1030;
+        }
+
+        .btn-checkout {
+            display: inline-block;
+            background-color: #28A745;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1.05rem;
+            letter-spacing: 0.5px;
+            padding: 12px 48px;
+            border-radius: 10px;
+            border: none;
+            text-decoration: none;
+            box-shadow: 0 8px 20px rgba(44, 62, 80, 0.25);
+            transition: transform 0.15s ease, background-color 0.15s ease;
+        }
+
+        .btn-checkout:hover {
+            background-color: #1e2b38;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .checkout-subtext {
+            margin-top: 6px;
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
+
+        /* Testimonials */
+
+        .testimonial-section {
+            max-width: 900px;
+            margin: 0 auto 5rem;
+        }
+
+        .testimonial-section p.subtitle {
+            text-align: center;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .testimonial-card {
+            padding: 10px 8px 50px 8px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .testimonial-card img {
+            border-radius: 14px;
+            width: 100%;
+            margin-bottom: 18px;
+        }
+
+        .carousel-indicators [data-bs-target] {
+            background-color: var(--accent);
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            margin: 0 5px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid header-section text-center">
+        <div class="countdown-label">This offer ends in</div>
+        <div id="countdown">12:00:00</div>
+    </div>
+
+    <div class="container text-center">
+        <p class="intro-text">
+            How a Simple “Ripe Tomato Trick” Restored Men’s Confidence in Just 7 Days.
+        </p>
+    </div>
+
+    <div class="container video-container text-center justify-content-center">
+        <div class="video-wrapper">
+            <video controls autoplay muted loop>
+                <source src="doctor-video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="testimonial-section">
+        <p class="subtitle">What our clients say</p>
+
+        <div id="carrosselTestemunhos" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#carrosselTestemunhos" data-bs-slide-to="8"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testimonial-card">
+                        <img src="testimonials/1.jpeg">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <img src="testimonials/2.jpeg">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <img src="testimonials/3.jpeg">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <img src="testimonials/4.jpeg">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <img src="testimonials/5.jpeg">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <img src="testimonials/6.jpeg">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <img src="testimonials/7.jpeg">
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="testimonial-card">
+                        <img src="testimonials/8.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="checkout-bar">
+        <a href="#" class="btn-checkout">Get My Confidence Back</a>
+        <p class="checkout-subtext">Immediate access after payment confirmation</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        (function () {
+            var STORAGE_KEY = 'countdown_end_time';
+            var countdownEl = document.getElementById('countdown');
+
+            function formatTime(seconds) {
+                var h = Math.floor(seconds / 3600);
+                var m = Math.floor((seconds % 3600) / 60);
+                var s = seconds % 60;
+                return [h, m, s].map(function (unit) {
+                    return String(unit).padStart(2, '0');
+                }).join(':');
+            }
+
+            function getEndTime() {
+                var stored = localStorage.getItem(STORAGE_KEY);
+
+                if (stored) {
+                    var endTime = parseInt(stored, 10);
+                    if (endTime > Date.now()) {
+                        return endTime;
+                    }
+                }
+
+                // Sorteia segundos aleatórios entre 7h e 12h (inclusive)
+                var minSeconds = 7 * 60 * 60;  // 25200
+                var maxSeconds = 12 * 60 * 60; // 43200
+                var randomSeconds = Math.floor(Math.random() * (maxSeconds - minSeconds + 1)) + minSeconds;
+                var durationMs = randomSeconds * 1000;
+                var newEndTime = Date.now() + durationMs;
+
+                localStorage.setItem(STORAGE_KEY, newEndTime.toString());
+                return newEndTime;
+            }
+
+            var endTime = getEndTime();
+
+            function tick() {
+                var totalSeconds = Math.round((endTime - Date.now()) / 1000);
+
+                if (totalSeconds <= 0) {
+                    clearInterval(timer);
+                    countdownEl.textContent = "00:00:00";
+                    localStorage.removeItem(STORAGE_KEY); // libera para sortear de novo
+                    return;
+                }
+
+                countdownEl.textContent = formatTime(totalSeconds);
+            }
+
+            tick();
+            var timer = setInterval(tick, 1000);
+        })();
+    </script>
+
+</body>
+
+</html>
